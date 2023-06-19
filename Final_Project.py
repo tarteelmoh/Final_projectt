@@ -108,6 +108,8 @@ while True:
                 print("Invalid Value")
 
         # TODO 11 create student object and append it to students list
+        student_1 = Student(student_name, student_age, student_number)
+        students.append(student_1)
 
 
         print("Student Added Successfully")
