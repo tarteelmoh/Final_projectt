@@ -48,7 +48,8 @@ class Student:
 
 
     # TODO 5 define a method to enroll new course to student courses list
-
+    def enroll_course(self, course):
+        self.courses_list.append(course)
 
     # method to get_student_details as dict
     def get_student_details(self):
