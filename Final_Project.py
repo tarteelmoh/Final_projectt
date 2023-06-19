@@ -126,6 +126,14 @@ while True:
 
     elif selection == 3:
         student_number = input("Enter Student Number")
+        for student in students:
+            if student.student_number == student_number:
+                print(f"Student Number: {student.student_number}")
+                print(f"Student Name: {student.student_name}")
+                print(f"Student Age: {student.student_age}")
+                break
+        else:
+            print("Student Not Exist")
         # TODO 13 find the target student using loops and print student detials  if exist , if not print ("Student Not Exist")
 
     elif selection == 4:
