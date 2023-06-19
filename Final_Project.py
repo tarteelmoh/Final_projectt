@@ -1,7 +1,7 @@
 """ITF 07 Final Project Attendance System
 # TODO 1 Enter your name and submission date
-Name :
-Delivery Date :
+Name : Tarteel AL Laham
+Delivery Date : 19/6/2023
 """
 
 
